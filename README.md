@@ -149,12 +149,44 @@ The SIR (susceptible-infected-removed) model, developed in the early twentieth c
 We use the SIR epidemic model which was first used to model the pandemic / epidemic in 1920s, to analyze human to human transmission of communicable disease. This algorithm was once mentioned as state of the art by Center for Disease Control in USA.
 
 
+Algorithm:
+
+
+Here,
+A is the contact matrix.
+β is the rate of infection.
+μ is the rate of recovery.
+T is the number of days.
+v0 is the initial number of cases.
+V is the total number of people.
+
+
+![](images/Algo_2.png)
+
+Fig. 7.a: The algorithm for original Kermack - McKendrick SIR epidemic model.
+
+
+Here,
+A is the contact matrix.
+β is the rate of infection.
+μ is the rate of recovery.
+γ is the rate of death.
+T is the number of days.
+v0 is the initial number of cases.
+V is the total number of people.
+
+
+![](images/Algo_3.png)
+
+Fig. 7.b: The algorithm for modified SARD pandemic model.
+
+
 And here I implement a modified SIR epidemic model with the rates of infection and deaths studied previously, to predict the outcomes over 100 days.
 
  
 ![](images/9.png)
 
-Fig. 7: SARCD for no lockdown model with no segregation of population.
+Fig. 8: SARCD for no lockdown model with no segregation of population.
  
 
 
@@ -169,14 +201,14 @@ Here I assume double rates for around 34 % of population, who are above 50 years
  
 ![](images/10.png)
 
-Fig. 8.a: SARCD for no lockdown model for young people.
+Fig. 9.a: SARCD for no lockdown model for young people.
 
 
 
  
 ![](images/11.png)
 
-Fig. 8.b: SARCD for no lockdown model for old people.
+Fig. 9.b: SARCD for no lockdown model for old people.
  
 
 Does lockdown have any effect? More importantly when should lockdown start to have effects. :
@@ -187,7 +219,7 @@ We test a lockdown after 55 days model, which was chosen by the last US state, t
 
 ![](images/12.png) 
  
-Fig. 9.a: SARCD for lockdown after 55 days.
+Fig. 10.a: SARCD for lockdown after 55 days.
 
 
 
@@ -195,19 +227,19 @@ Fig. 9.a: SARCD for lockdown after 55 days.
 
 ![](images/13.png)
 
-Fig. 9.b: SARCD for lockdown after 55 days for young people.
+Fig. 10.b: SARCD for lockdown after 55 days for young people.
 
 
 ![](images/14.png)
 
-Fig. 9.c: SARCD for lockdown after 55 days for old people.
+Fig. 10.c: SARCD for lockdown after 55 days for old people.
 
 We test a lockdown after 35 days model, which was chosen by the first US state, to start lockdown.
 
 
 ![](images/15.png)
 
-Fig. 10.a: SARCD for lockdown after 35 days.
+Fig. 11.a: SARCD for lockdown after 35 days.
 
 
 
@@ -219,12 +251,12 @@ Fig. 10.a: SARCD for lockdown after 35 days.
 
 ![](images/16.png)
 
-Fig. 10.b: SARCD for lockdown after 35 days for young people.
+Fig. 11.b: SARCD for lockdown after 35 days for young people.
 
 
 ![](images/17.png)
 
-Fig. 10.d: SARCD for lockdown after 35 days for old people.
+Fig. 11.c: SARCD for lockdown after 35 days for old people.
 
 
 We test a lockdown after 15 days model, which was chosen as the one with the most impact.
@@ -232,16 +264,17 @@ We test a lockdown after 15 days model, which was chosen as the one with the mos
 
 ![](images/18.png)
 
-Fig. 11.a: SARCD for lockdown after 15 days.
+Fig. 12.a: SARCD for lockdown after 15 days.
  
 
 ![](images/19.png)
 
-Fig. 11.b: SARCD for lockdown after 15 days for young people.
+Fig. 12.b: SARCD for lockdown after 15 days for young people.
+
 
 ![](images/20.png)
 
-Fig. 11.c: SARCD for lockdown after 15 days for old people.
+Fig. 12.c: SARCD for lockdown after 15 days for old people.
  
 
 Can testing help? Assuming testing is followed by isolation or quarantine, for high risk cases.:
@@ -255,7 +288,7 @@ Here we see the spread of COVID - 19 pre lockdown.
 
 ![](images/21.png)
 
-Fig. 12.a: Spread of COVID – 19 pre lockdown .
+Fig. 13.a: Spread of COVID – 19 pre lockdown .
 
 
 Here we see the spread of COVID - 19 post lockdown.
@@ -263,7 +296,7 @@ Here we see the spread of COVID - 19 post lockdown.
 
 ![](images/22.png)
 
-Fig. 12.b: Spread of COVID – 19 post lockdown.
+Fig. 13.b: Spread of COVID – 19 post lockdown.
  
 
 With testing:
@@ -274,7 +307,7 @@ Here we see the spread of COVID - 19 pre lockdown.
  
 ![](images/23.png)
 
-Fig. 13.a: Spread of COVID – 19 pre lockdown.
+Fig. 14.a: Spread of COVID – 19 pre lockdown.
  
 
 Here we see the spread of COVID - 19 post lockdown.
@@ -282,7 +315,7 @@ Here we see the spread of COVID - 19 post lockdown.
 
 ![](images/24.png)
 
-Fig. 13.b: Spread of COVID – 19 post lockdown. 
+Fig. 14.b: Spread of COVID – 19 post lockdown. 
  
 
 
