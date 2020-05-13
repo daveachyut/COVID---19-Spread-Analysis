@@ -18,7 +18,7 @@ CDC monitors COVID-19 disease spread in the United States and provides updates a
 More than half of U.S. states have stay-at-home orders, and when will it be safe to lift restrictions is also an important question from an economic point of view. Among these questions and many more, important from all perspectives, we study how to perform COVID – 19 spread analysis.
 
 
-![](images/1.png) 
+![](images/1.jpg) 
 
 Fig. 1: Supposed microscopic view of the virus. 
 
@@ -47,7 +47,7 @@ For models segregating young (< 50 years) and old (> 50 years) population, I hav
 The final assumption is that the rates of infection and deaths do not change with time, and remain same pre and post lockdown.
 
  
-![](images/2.png)
+![](images/2.jpg)
 
 Fig. 2: Post lockdown streets. 
 
@@ -67,7 +67,7 @@ The most common symptoms of COVID-19 are fever, dry cough, and tiredness. Throug
 Unfortunately, the only way to truly know if someone has COVID-19 is to test them—that’s because the symptoms of the illness may look extremely similar to that of the common cold or flu: cough, fever, body aches. The best way to prevent illness is to avoid being exposed to this virus.
 
  
-![](images/3.png)
+![](images/3.jpg)
 
 Fig. 3: Prevention is better than cure. 
 
@@ -85,7 +85,7 @@ The most frequent infectious diseases in humans—and those with the highest pot
 Analysis of targeted immunization strategies suggested that contact network data are required to design strategies that are significantly more effective than random immunization. Simple tools from calculus allow us to extract a great deal of information from these contact networks.
 
  
-![](images/4.png)
+![](images/4.jpg)
 
 Fig. 4: Isolation / quarantining is necessary for infected patients. 
 
