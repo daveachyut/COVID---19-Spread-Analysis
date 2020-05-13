@@ -18,7 +18,7 @@ CDC monitors COVID-19 disease spread in the United States and provides updates a
 More than half of U.S. states have stay-at-home orders, and when will it be safe to lift restrictions is also an important question from an economic point of view. Among these questions and many more, important from all perspectives, we study how to perform COVID – 19 spread analysis.
 
 
-![](images/13.png) 
+![](images/1.png) 
 
 Fig. 1: Supposed microscopic view of the virus. 
 
@@ -47,7 +47,7 @@ For models segregating young (< 50 years) and old (> 50 years) population, I hav
 The final assumption is that the rates of infection and deaths do not change with time, and remain same pre and post lockdown.
 
  
-![](images/13.png)
+![](images/2.png)
 
 Fig. 2: Post lockdown streets. 
 
@@ -67,7 +67,7 @@ The most common symptoms of COVID-19 are fever, dry cough, and tiredness. Throug
 Unfortunately, the only way to truly know if someone has COVID-19 is to test them—that’s because the symptoms of the illness may look extremely similar to that of the common cold or flu: cough, fever, body aches. The best way to prevent illness is to avoid being exposed to this virus.
 
  
-![](images/13.png)
+![](images/3.png)
 
 Fig. 3: Prevention is better than cure. 
 
@@ -85,7 +85,7 @@ The most frequent infectious diseases in humans—and those with the highest pot
 Analysis of targeted immunization strategies suggested that contact network data are required to design strategies that are significantly more effective than random immunization. Simple tools from calculus allow us to extract a great deal of information from these contact networks.
 
  
-![](images/13.png)
+![](images/4.png)
 
 Fig. 4: Isolation / quarantining is necessary for infected patients. 
 
@@ -96,12 +96,12 @@ How do we study contact among people? :
 We try to study contacts through Contact Networks, which are similar to Social Media networks, that are formed by studying the contact among people living in communities, small villages, towns or large cities.
 
  
-![](images/13.png)
+![](images/5.png)
 
 Fig. 5.a: A sample of pre lockdown contact network data.
 
  
-![](images/13.png)
+![](images/6.png)
 
 Fig. 5.b: A sample of post lockdown contact network data.
 
@@ -115,7 +115,7 @@ Here we make no assumptions, and use the actual data available on the internet, 
 I trained a neural net model with four hidden layers to study these rates. I used the data for spread of infection for first 18 days, and increase in number of deaths for first 25 days.
 
  
-![](images/13.png)
+![](images/7.png)
 
 Fig. 6.a: Train data vs train pred for spread of infection.
 
@@ -127,7 +127,7 @@ Initial number of cases: 1
 Number of days to double the cases: 3
 
  
-![](images/13.png)
+![](images/8.png)
 
 Fig. 6.b: Train data vs train pred for increase in number of deaths.
 
@@ -152,7 +152,7 @@ We use the SIR epidemic model which was first used to model the pandemic / epide
 And here I implement a modified SIR epidemic model with the rates of infection and deaths studied previously, to predict the outcomes over 100 days.
 
  
-![](images/13.png)
+![](images/9.png)
 
 Fig. 7: SARCD for no lockdown model with no segregation of population.
  
@@ -167,14 +167,14 @@ No. The studies have showed people above 50 years of age are more likely victims
 Here I assume double rates for around 34 % of population, who are above 50 years of age.
 
  
-![](images/13.png)
+![](images/10.png)
 
 Fig. 8.a: SARCD for no lockdown model for young people.
 
 
 
  
-![](images/13.png)
+![](images/11.png)
 
 Fig. 8.b: SARCD for no lockdown model for old people.
  
@@ -185,7 +185,7 @@ Does lockdown have any effect? More importantly when should lockdown start to ha
 We test a lockdown after 55 days model, which was chosen by the last US state, to start lockdown.
 
 
-![](images/13.png) 
+![](images/12.png) 
  
 Fig. 9.a: SARCD for lockdown after 55 days.
 
@@ -198,14 +198,14 @@ Fig. 9.a: SARCD for lockdown after 55 days.
 Fig. 9.b: SARCD for lockdown after 55 days for young people.
 
 
-![](images/13.png)
+![](images/14.png)
 
 Fig. 9.c: SARCD for lockdown after 55 days for old people.
 
 We test a lockdown after 35 days model, which was chosen by the first US state, to start lockdown.
 
 
-![](images/13.png)
+![](images/15.png)
 
 Fig. 10.a: SARCD for lockdown after 35 days.
 
@@ -217,7 +217,7 @@ Fig. 10.a: SARCD for lockdown after 35 days.
 
 
 
-![](images/13.png)
+![](images/16.png)
 
 Fig. 10.b: SARCD for lockdown after 35 days for young people.
 
@@ -230,16 +230,16 @@ Fig. 10.d: SARCD for lockdown after 35 days for old people.
 We test a lockdown after 15 days model, which was chosen as the one with the most impact.
 
 
-![](images/13.png)
+![](images/17.png)
 
 Fig. 11.a: SARCD for lockdown after 15 days.
  
 
-![](images/13.png)
+![](images/18.png)
 
 Fig. 11.b: SARCD for lockdown after 15 days for young people.
 
-![](images/13.png)
+![](images/19.png)
 
 Fig. 11.c: SARCD for lockdown after 15 days for old people.
  
@@ -253,14 +253,16 @@ With no testing:
 Here we see the spread of COVID - 19 pre lockdown.
 
 
- 
+![](images/20.png)
+
 Fig. 12.a: Spread of COVID – 19 pre lockdown .
 
 
 Here we see the spread of COVID - 19 post lockdown.
 
 
- 
+![](images/21.png)
+
 Fig. 12.b: Spread of COVID – 19 post lockdown.
  
 
@@ -270,13 +272,16 @@ With testing:
 Here we see the spread of COVID - 19 pre lockdown.
 
  
+![](images/22.png)
+
 Fig. 13.a: Spread of COVID – 19 pre lockdown.
  
 
 Here we see the spread of COVID - 19 post lockdown.
 
 
- 
+![](images/23.png)
+
 Fig. 13.b: Spread of COVID – 19 post lockdown. 
  
 
