@@ -222,7 +222,7 @@ Fig. 10.a: SARCD for lockdown after 35 days.
 Fig. 10.b: SARCD for lockdown after 35 days for young people.
 
 
-![](images/13.png)
+![](images/17.png)
 
 Fig. 10.d: SARCD for lockdown after 35 days for old people.
 
@@ -230,16 +230,16 @@ Fig. 10.d: SARCD for lockdown after 35 days for old people.
 We test a lockdown after 15 days model, which was chosen as the one with the most impact.
 
 
-![](images/17.png)
+![](images/18.png)
 
 Fig. 11.a: SARCD for lockdown after 15 days.
  
 
-![](images/18.png)
+![](images/19.png)
 
 Fig. 11.b: SARCD for lockdown after 15 days for young people.
 
-![](images/19.png)
+![](images/20.png)
 
 Fig. 11.c: SARCD for lockdown after 15 days for old people.
  
@@ -253,7 +253,7 @@ With no testing:
 Here we see the spread of COVID - 19 pre lockdown.
 
 
-![](images/20.png)
+![](images/21.png)
 
 Fig. 12.a: Spread of COVID – 19 pre lockdown .
 
@@ -261,7 +261,7 @@ Fig. 12.a: Spread of COVID – 19 pre lockdown .
 Here we see the spread of COVID - 19 post lockdown.
 
 
-![](images/21.png)
+![](images/22.png)
 
 Fig. 12.b: Spread of COVID – 19 post lockdown.
  
@@ -272,7 +272,7 @@ With testing:
 Here we see the spread of COVID - 19 pre lockdown.
 
  
-![](images/22.png)
+![](images/23.png)
 
 Fig. 13.a: Spread of COVID – 19 pre lockdown.
  
@@ -280,7 +280,7 @@ Fig. 13.a: Spread of COVID – 19 pre lockdown.
 Here we see the spread of COVID - 19 post lockdown.
 
 
-![](images/23.png)
+![](images/24.png)
 
 Fig. 13.b: Spread of COVID – 19 post lockdown. 
  
